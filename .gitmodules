@@ -1,0 +1,9 @@
+[submodule "modules/puppet-mariadb"]
+	path = modules/puppet-mariadb
+	url = https://github.com/NeCTAR-RC/puppet-mariadb.git
+[submodule "modules/php5"]
+	path = modules/php5
+	url = https://github.com/chrisboulton/puppet-php5.git
+[submodule "modules/puppetlabs-apache"]
+	path = modules/puppetlabs-apache
+	url = https://github.com/puppetlabs/puppetlabs-apache.git
