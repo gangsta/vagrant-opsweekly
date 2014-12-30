@@ -3,4 +3,4 @@ Opsweekly
 ===========
 https://github.com/etsy/opsweekly
 
-#just startet working on it .
+#just started working on it .
