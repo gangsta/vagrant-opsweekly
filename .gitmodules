@@ -7,3 +7,6 @@
 [submodule "modules/mariadb"]
 	path = modules/mariadb
 	url = https://github.com/NeCTAR-RC/puppet-mariadb.git
+[submodule "modules/firewall"]
+	path = modules/firewall
+	url = https://github.com/puppetlabs/puppetlabs-firewall.git
