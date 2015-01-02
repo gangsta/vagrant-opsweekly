@@ -12,8 +12,6 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
     config.vm.box = "vStone/centos-6.x-puppet.3.x"
-    config.vbguest.auto_update = true
-
 
   config.vm.provision "puppet" do |puppet|
     puppet.manifests_path = "manifests"
