@@ -11,8 +11,8 @@ Vagrant.configure(2) do |config|
   # vagrantup.com
 
   # Every Vagrant virtual environment requires a box to build off of.
-    config.vm.box = "Centos-6-4-puppet"
-    config.vm.box_url = "http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20131103.box"
+    config.vm.box = "vStone/centos-6.x-puppet.3.x"
+    config.vbguest.auto_update = true
 
 
   config.vm.provision "puppet" do |puppet|
@@ -34,7 +34,6 @@ Vagrant.configure(2) do |config|
     config.vm.network "forwarded_port", guest: 8000, host: 8000
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-    config.vm.network "private_network", ip: "192.168.33.10"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
