@@ -1,6 +1,3 @@
-[submodule "modules/php5"]
-	path = modules/php5
-	url = https://github.com/chrisboulton/puppet-php5.git
 [submodule "modules/apache"]
 	path = modules/apache
 	url = https://github.com/puppetlabs/puppetlabs-apache.git
