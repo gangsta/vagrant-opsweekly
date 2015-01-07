@@ -1,6 +1,6 @@
 # Class: php::install
 #
-#
+# Packages which need to install php54
 class php::install {
 
   package {'php54-php-bcmath':
