@@ -4,9 +4,21 @@
 [submodule "modules/firewall"]
 	path = modules/firewall
 	url = https://github.com/puppetlabs/puppetlabs-firewall.git
-[submodule "modules/Mysql"]
-	path = modules/Mysql
-	url = https://github.com/puppetlabs/puppetlabs-mysql.git
 [submodule "modules/opsweekly"]
 	path = modules/opsweekly
 	url = https://github.com/Karen09/puppet-opsweekly.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/staging"]
+	path = modules/staging
+	url = https://github.com/nanliu/puppet-staging.git
+[submodule "modules/concat"]
+	path = modules/concat
+	url = https://github.com/puppetlabs/puppetlabs-concat.git
+[submodule "modules/scl"]
+	path = modules/scl
+	url = https://github.com/treydock/puppet-scl.git
+[submodule "modules/mysql"]
+	path = modules/mysql
+	url = https://github.com/puppetlabs/puppetlabs-mysql.git
