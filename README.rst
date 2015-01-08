@@ -13,7 +13,10 @@ https://github.com/etsy/opsweekly
 
 3.Add box for Vagrant
 ---------------------------------------
-"vStone/centos-6.x-puppet.3.x"
+
+#vagrant goes automatic download "box" which needs.
+
+#for manual steps you need "vStone/centos-6.x-puppet.3.x" box.
 
 4.Get Github Repository
 ---------------------------------------
@@ -35,10 +38,8 @@ https://github.com/etsy/opsweekly
 7.Log In Opsweekly
 ---------------------------------------
 
-  go to ->  192.168.33.10:8080/opsweekly
+  go to ->  192.168.33.10/opsweekly
 
-  #Now am at working at this FQDN issue 
-  
 
 8.Extra Info
 ---------------------------------------
