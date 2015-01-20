@@ -33,7 +33,7 @@ node 'opsweekly'{
   apache::vhost { '192.168.22.10':
     port        => '80',
     docroot     => '/var/www/html',
-    aliases     =>
+    aliases     => [
       {
         alias => '/opsweekly',
         path  => '/opt/opsweekly',
