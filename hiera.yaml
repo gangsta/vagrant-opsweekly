@@ -1,10 +1,10 @@
 ---
-:backends:
-	- yaml
-
 :hierarchy:
-	- "config-opsweekly/"
-	- "base"
+  - "nodes/%{::hostname}"
+  - common
+
+:backends:
+  - yaml
 
 :yaml:
-	:datadir: /etc/puppet/hiera
+  :datadir: '/etc/puppet/hiera'
