@@ -1,0 +1,10 @@
+---
+:backends:
+	- yaml
+
+:hierarchy:
+	- "config-opsweekly/"
+	- "base"
+
+:yaml:
+	:datadir: /etc/puppet/hiera

@@ -14,11 +14,14 @@
   # Every Vagrant virtual environment requires a box to build off of.
     config.vm.box = "vStone/centos-6.x-puppet.3.x"
 
+  config.vm.synced_folder 'hieradata', '/etc/puppet/hiera'
+  
   config.vm.provision "puppet" do |puppet|
     puppet.manifests_path = "manifests"
     puppet.module_path = "modules"
     puppet.manifest_file = "site.pp"
     puppet.options = "--verbose --debug"
+    puppet.hiera_config_path = "hiera.yaml"
   end
 
   # Disable automatic box update checking. If you disable this, then

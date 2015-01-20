@@ -5,7 +5,7 @@ node 'opsweekly'{
 
   firewall {'000 explicit rule Opsweekly':
     proto  => 'tcp',
-    dport  => '8080',
+    dport  => hiera('firewall_port'),
     action => 'accept',
   }
 
@@ -72,9 +72,11 @@ phpinfo();
     require => Class['opsweekly'],
   }
 
-  mysql::db {'opsweekly':
-    user           => 'opsweekly',
-    password       => 'opsweekly',
+  $mysql_db_name = hiera('mysql_db_name')
+
+  mysql::db { "${mysql_db_name}":
+    user           => hiera('mysql_user'),
+    password       => hiera('mysql_user_passwd'),
     host           => 'localhost',
     grant          => ['ALL'],
     sql            => '/opt/opsweekly/opsweekly.sql',

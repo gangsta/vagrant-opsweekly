@@ -1,0 +1,8 @@
+#base.yaml
+firewall_port: '8080'
+
+mysql_db_name: 'opsweekly'
+
+mysql_user: 'opsweekly_user'
+
+mysql_user_passwd: 'opsweekly'
