@@ -16,9 +16,6 @@
 [submodule "modules/concat"]
 	path = modules/concat
 	url = https://github.com/puppetlabs/puppetlabs-concat.git
-[submodule "modules/scl"]
-	path = modules/scl
-	url = https://github.com/treydock/puppet-scl.git
 [submodule "modules/mysql"]
 	path = modules/mysql
 	url = https://github.com/puppetlabs/puppetlabs-mysql.git
