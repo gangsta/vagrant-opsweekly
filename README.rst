@@ -38,7 +38,7 @@ https://github.com/etsy/opsweekly
 7.Log In Opsweekly
 ---------------------------------------
 
-  go to ->  192.168.33.10/opsweekly
+  go to ->  192.168.22.10/opsweekly
 
 
 8.Extra Info
