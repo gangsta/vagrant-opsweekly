@@ -1,7 +1,7 @@
 
 Opsweekly
 ===========
-Official web-cite`
+Official Githube Repository`
 
 https://github.com/etsy/opsweekly
 
@@ -11,43 +11,38 @@ https://github.com/etsy/opsweekly
 2.Install Vagrant
 -----------------
 
-3.Add box for Vagrant
+3.Get Github Repository
 ---------------------------------------
 
-#vagrant goes automatic download "box" which needs.
-
-#for manual steps you need "vStone/centos-6.x-puppet.3.x" box.
-
-4.Get Github Repository
----------------------------------------
   $ git clone https://github.com/Karen09/vagrant-opsweekly.git
 
-5.Change directory to vagrant-opsweekly
+4.Change directory to vagrant-opsweekly
 ---------------------------------------
 
   $ cd vagrant-opsweekly/
 
 
-6.Run vagrant
+5.Run vagrant
 ---------------------------------------
 
   $ git submodule update --init 
 
   $ vagrant up
 
-7.Log In Opsweekly
+6.Log In Opsweekly
 ---------------------------------------
 
   go to ->  192.168.22.10/opsweekly
 
 
-8.Extra Info
+7.Extra Info
 ---------------------------------------
 
-  I will wait for Feedback`s . thanks
+Manage /opt/opsweekly/phplib/config.php as you wish,and enjoy it.
 
-I`m still working on Opsweekly vagrant to make it better for test.
-
-Update PHP5.3 -> PHP5.4 on Centos 6 With SCL
+For updating PHP5.3 -> PHP5.4 on Centos 6 With centos-SCL`
 
 https://blog.carroarmato0.be/2014/12/23/using-php5-4-on-centos-6-6-with-scl/
+
+
+I will wait for Feedback`s . thanks
