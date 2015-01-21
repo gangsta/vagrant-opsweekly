@@ -1,8 +1,16 @@
 #opsweekly.yaml
-firewall_port: '8080'
+firewall_port: 8080
 
-mysql_db_name: 'opsweekly'
+mysql_db_name: opsweekly
+mysql_user: opsweekly_user
+mysql_user_passwd: opsweekly
+mysql_localhost: localhost
+mysql_grant: ALL
 
-mysql_user: 'opsweekly_user'
+apache_vhost: 192.168.22.10
+apache::default_vhost: false
+apache::default_mods: false
+apache::mpm_module: prefork
 
-mysql_user_passwd: 'opsweekly'
+apache::mod::php::package_name: php54-php
+apache_mod_php_path: libphp54-php5.so
