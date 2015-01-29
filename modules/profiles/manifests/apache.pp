@@ -4,13 +4,13 @@
 class profiles::apache {
 
   include ::apache
-  
+
   $apache_mod_php_path = hiera('apache_mod_php_path')
 
   class  {'::apache::mod::php':
     path => "${::apache::params::lib_path}/${apache_mod_php_path}",
   }
-    
+
   $apache_vhost = hiera('apache_vhost')
 
   apache::vhost { "${apache_vhost}":
@@ -29,9 +29,9 @@ class profiles::apache {
         allow          => 'from All',
         allow_override => [ 'None' ],
         order          => 'Allow,Deny',
-      }
-    ]
-  }  
+      },
+    ],
+  }
 
   package {'centos-release-SCL':
     before =>Class['apache::mod::php'],
