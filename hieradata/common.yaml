@@ -1,4 +1,6 @@
 #base.yaml
+#the same with opsweekly.yaml
+#there were not basic value(choose here your basic values)
 firewall_port: 8080
 
 mysql_db_name: opsweekly
